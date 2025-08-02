@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('F:\program\pk.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover; /* Adjust background size to cover the viewport */
+      font-family: Arial, sans-serif; /* Default font family */
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for container */
+    }
+    form {
+      text-align: left; /* Align form elements to the left */
+      padding: 20px; /* Padding inside the form */
+    }
+    h1 {
+      text-align: center; /* Center align the form title */
+      color: #333; /* Dark color for title */
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px; /* Space between form elements */
+      border: 1px solid #ccc; /* Light border */
+      border-radius: 4px;
+      box-sizing: border-box; /* Ensure padding and border are included in width */
+      font-size: 16px; /* Default font size */
+    }
+    textarea {
+      height: 150px; /* Adjust textarea height */
+    }
+    #button {
+      background-color: #4CAF50; /* Green background color */
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #button:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+    .map-container {
+      text-align: center; /* Center align the map */
+      margin-top: 20px; /* Space above the map */
+    }
+    iframe {
+      width: 100%; /* Full width within its container */
+      max-width: 600px; /* Limit maximum width */
+      height: 300px; /* Fixed height */
+      border: none; /* Remove border */
+      border-radius: 8px; /* Rounded corners */
+    }
+  </style>
+</head>
+
+     <body background="F:\program\pk.jpeg" style="background-repeat: no-repeat; background-size:1600px; background-position-x: 0px; background-position-y: 0px;">
+     <div class="container">
+    <form>
+      <h1>Contact Us Form</h1><br><br>
+      <input type="text" id="firstName" name="firstName" name="First Name" required><br><br>
+      <input type="text" id="lastName" name="lastName" name="Last Name" required><br><br>
+      <input type="email" id="email" name="email" ="Email" required><br><br>
+      <input type="tel" id="mobileNo" name="mobileNo" ="Mobile No." required><br><br>
+      <h2>Type Your Message Here...</h2>
+      <textarea id="message" name="message" placeholder="Enter your message"></textarea><br><br>
+      <center>
+	  <input type="submit" value="Send" id="button">
+	  </center>
+    </form>
+    <div class="map-container">
+      <h3>Our Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30179.462004806304!2d74.9091849!3d19.0006433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1719392714999!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</body>
+</html>

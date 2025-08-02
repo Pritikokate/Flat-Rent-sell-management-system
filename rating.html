@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<center>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><b>Recipe Feedback</b></title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<body background="F:\program\pk.jpeg" style="background-repeat: no-repeat; background-size:1600px; background-position-x: 0px; background-position-y: 0px;">
+<div class ="container">
+  
+			<h2><b>Recipe Feedback</b></h2><br><br><br>
+			 
+			
+			
+  <p><b>Rate the recipe:</b></p>
+  <div class="rating">
+    <input type="radio" id="star5" name="rating" value="5"><b>poor</b><label for="star5"></label>
+    <input type="radio" id="star4" name="rating" value="4"><b>satisfactory</b><label for="star4"></label>
+    <input type="radio" id="star3" name="rating" value="3"><b>good</b><label for="star3"></label>
+    <input type="radio" id="star2" name="rating" value="2"><b>very good</b><label for="star2"></label>
+    <input type="radio" id="star1" name="rating" value="1"><b>excellent</b><label for="star1"></label><br><br><br>
+  </div>
+  <textarea id="feedback" placeholder="Enter your feedback"></textarea><br><br>
+  <button onclick="submitFeedback()">Submit</button>
+  </center>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

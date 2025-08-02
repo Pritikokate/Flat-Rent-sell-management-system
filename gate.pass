@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> gate.html</title></head>
+<center>
+<b>visitor gate pass</b><br><br>
+<body>
+visitor Name <input type = "text">
+<br><br>
+gate pass no<input type = "number">
+<br><br>
+mobile no<input type = "number">
+<br><br>
+person To meet<input type = "text">
+<br><br>
+vehical number<input type = "number">
+<br><br>
+purpose <input type = "text">
+<br><br>
+gp date <input type = "date">
+<br><br>
+gp time<input type = "time">
+<br><br>
+</center>
+</body>
+</html>
